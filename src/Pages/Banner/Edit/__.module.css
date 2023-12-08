@@ -1,0 +1,124 @@
+.AddForm {
+  font-family: "Roboto", sans-serif im !important;
+  font-size: 14px;
+}
+
+.AddForm > p {
+  margin-bottom: 0px;
+}
+
+p.Title {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 12px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+p.Title::after {
+  content: ":";
+}
+.InputBox {
+  margin-bottom: 10px;
+}
+
+.TextArea {
+  height: 300px im !important;
+}
+
+.categoryId {
+  margin-right: 10px;
+}
+
+.CategoryBox {
+  margin-top: 0px;
+  font-family: "Roboto", sans-serif !important;
+}
+
+.CategoryBox input {
+  cursor: pointer;
+}
+
+.CategoryBox > ul,
+.CategoryBox li {
+  list-style: none;
+  font-size: 14px;
+  line-height: 1.5rem;
+}
+.CategoryBox > h5 > i {
+  font-size: 14px;
+  margin-right: 5px;
+}
+.CategoryBox > h5 {
+  font-size: 16px;
+}
+
+.Btns {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.Btns > button {
+  margin-right: 10px;
+  margin-top: 0px !important;
+}
+
+.PreviewImg {
+  width: 20%;
+}
+
+.Btns > button > i {
+  font-size: 12px;
+}
+
+.LitleError {
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  color: red;
+}
+
+.Tags {
+  height: auto;
+}
+
+.Toast {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 100000;
+  min-width: 300px;
+  width: auto;
+  background-color: #fff;
+}
+
+.Active {
+  display: block;
+}
+
+.unActive {
+  display: none;
+}
+
+.ChangeMenu {
+  margin-bottom: 20px;
+}
+
+.OldImage {
+  width: 100%;
+  border: 5px solid rgb(243, 242, 242);
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+
+.DeleteImgBtn {
+  background: rgb(223, 61, 61);
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.DeleteImgBtn:hover {
+  background: rgb(187, 20, 20);
+  color: #fff;
+}

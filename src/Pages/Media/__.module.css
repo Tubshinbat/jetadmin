@@ -1,0 +1,149 @@
+.PanelControl {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.PanelTabelHeader {
+  display: flex;
+  margin-bottom: 20px;
+}
+.PanelTabelHeader > button {
+  margin-right: 15px;
+}
+
+.SearchPanel {
+  display: flex;
+  justify-content: flex-end;
+}
+.SearchPanel > div {
+  margin-left: 10px;
+}
+
+.SearchPanel > .form-control {
+  font-size: 0.9rem;
+}
+
+.newsTable {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+}
+
+.newsTable thead {
+  padding: 30px 0px;
+}
+
+.newsTable tr {
+  cursor: pointer;
+}
+
+.newsTable tr:hover {
+  background-color: rgb(237, 237, 237);
+}
+
+.newsTable th,
+.newsTable td {
+  padding: 0.5rem !important;
+}
+
+.newsTable td a {
+  color: rgb(20, 47, 145);
+  font-weight: 600;
+}
+
+.AllActions {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.Actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  height: 22px;
+  width: 22px;
+  padding: 5px;
+  font-size: 10px;
+  border-radius: 2px;
+  background: #ccc;
+  color: #fff;
+}
+
+a.Actions {
+  color: #fff !important;
+}
+
+.View {
+  background: rgb(2, 141, 95);
+}
+.Edit {
+  background: rgb(20, 47, 145);
+}
+
+.Publish {
+  padding: 5px 14px;
+  border-radius: 10px;
+  background: rgb(54, 175, 23);
+  color: #fff;
+}
+
+.Draft {
+  padding: 5px 14px;
+  border-radius: 10px;
+  background: rgb(54, 175, 23);
+  color: #fff;
+}
+
+.DashboardFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.Toast {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 100000;
+  min-width: 300px;
+  width: auto;
+  background-color: #fff;
+}
+
+.Notfound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 30px;
+}
+.Notfound p {
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+.Notfound > img {
+  width: 200px;
+}
+
+.BtnGroup {
+  display: flex;
+}
+
+.BtnGroup button {
+  margin-right: 10px;
+}
+
+.Type{
+  text-align: center;
+}
+.Type span{
+  background-color: antiquewhite;
+  border-radius: 20px;
+  padding: 5px 20px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}

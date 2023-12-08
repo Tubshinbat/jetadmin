@@ -1,0 +1,72 @@
+.AddForm {
+  font-family: "Roboto", sans-serif im !important;
+  font-size: 14px;
+}
+
+.AddForm > p {
+  margin-bottom: 0px;
+}
+
+.Title {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.categoryId {
+  margin-right: 10px;
+}
+
+.CategoryBox {
+  margin-top: 0px;
+  font-family: "Roboto", sans-serif !important;
+}
+
+.CategoryBox input {
+  cursor: pointer;
+}
+
+.CategoryBox > ul,
+.CategoryBox li {
+  list-style: none;
+  font-size: 14px;
+  line-height: 1.5rem;
+}
+.CategoryBox > h5 > i {
+  font-size: 14px;
+  margin-right: 5px;
+}
+.CategoryBox > h5 {
+  font-size: 16px;
+}
+
+.Btns {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.Btns > button {
+  margin-right: 10px;
+  margin-top: 0px !important;
+}
+
+.Btns > button > i {
+  font-size: 12px;
+}
+
+.LitleError {
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  color: red;
+}
+
+.Tags {
+  height: auto;
+}
+
+.CategoryListBox {
+  max-height: 250px;
+  overflow-y: scroll;
+}

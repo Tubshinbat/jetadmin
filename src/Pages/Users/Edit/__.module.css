@@ -1,0 +1,187 @@
+.AddForm {
+  font-family: "Roboto", sans-serif im !important;
+  font-size: 14px;
+}
+
+.AddForm > p {
+  margin-bottom: 0px;
+}
+
+.Title {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.Toast {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 100000;
+  min-width: 300px;
+  width: auto;
+  background-color: #fff;
+}
+
+.categoryId {
+  margin-right: 10px;
+}
+
+.CategoryBox {
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif !important;
+}
+
+.CategoryBox input {
+  cursor: pointer;
+}
+
+.CategoryBox > ul,
+.CategoryBox li {
+  list-style: none;
+  font-size: 14px;
+  line-height: 1.5rem;
+}
+.CategoryBox > h5 > i {
+  font-size: 14px;
+  margin-right: 5px;
+}
+.CategoryBox > h5 {
+  font-size: 14px;
+}
+
+.custom-control-label {
+  font-size: 14px;
+}
+
+.Btns {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.Btns > button {
+  margin-right: 10px;
+  margin-top: 0px !important;
+}
+
+.Btns > button > i {
+  font-size: 12px;
+}
+
+.LitleError {
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  color: red;
+}
+
+.DayButton {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.DayBox {
+  padding: 20px;
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.DayBox input,
+.DayBox textarea {
+  margin-top: 10px;
+  padding-left: 14px;
+  font-size: 0.8rem;
+  border-radius: 0px;
+}
+.DayBox input {
+  height: 40px;
+  border-radius: 2px;
+}
+.DayBox textarea {
+  height: 120px;
+}
+
+.DayTitle {
+  position: relative;
+  width: auto;
+  color: #fff;
+  width: 100px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  background: rgb(9, 187, 68);
+  padding: 4px 20px;
+  border-radius: 10px;
+}
+
+.DayBoxTitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.DeleteBtn {
+  background-color: rgb(207, 53, 53) !important;
+  color: #fff !important;
+  font-size: 10px !important;
+  padding: 5px !important;
+  height: 30px;
+}
+
+.DeleteBtn > i {
+  padding: 5px;
+  margin: 0px;
+}
+.DeleteBtn:hover {
+  background-color: rgb(150, 45, 45) !important;
+}
+
+.Textarea {
+  font-size: 0.8rem;
+  padding: 20px;
+}
+
+.DayDetial {
+  height: 300px;
+}
+.Tags {
+  height: auto !important;
+}
+
+.SelectInput {
+  font-size: 0.8rem;
+  margin-top: 10px;
+}
+.SelectInput > option {
+  padding: 5px;
+}
+.isCheck {
+  font-size: 0.8rem;
+}
+.isCheck > input {
+  margin-right: 10px;
+}
+
+.oldText {
+  margin: 10px 0px;
+}
+
+.oldImage {
+  width: 100%;
+  border: 3px solid rgb(241, 241, 241);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.deletePhoto {
+  margin-top: 10px;
+  background: rgb(194, 32, 32);
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.deletePhoto:hover {
+  color: rgb(250, 250, 250);
+  background: rgb(224, 27, 27);
+}

@@ -1,0 +1,11 @@
+.modal-title {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #525252;
+}
+
+.modal {
+  z-index: 10000;
+}

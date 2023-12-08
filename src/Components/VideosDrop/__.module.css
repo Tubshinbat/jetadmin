@@ -1,0 +1,38 @@
+.App {
+}
+
+.Dropzone {
+  padding: 40px;
+  cursor: pointer;
+  text-align: center;
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  background: #f7f7f7;
+  transition: all 0.3s;
+  font-family: "Roboto";
+}
+
+.Dropzone i {
+  font-size: 1.3rem;
+  color: #98a6ad;
+  margin: 5px 0px;
+}
+
+.Dropzone p {
+  margin: 0px;
+  margin: 5px 0px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #98a6ad;
+  line-height: 1.2rem;
+}
+
+.Dropzone:hover {
+  background: #ffffff;
+}
+
+.FileName {
+  margin-top: 20px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}

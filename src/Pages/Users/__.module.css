@@ -1,0 +1,162 @@
+.PanelControl {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.PanelTabelHeader {
+  display: flex;
+  margin-bottom: 20px;
+}
+.PanelTabelHeader > Button {
+  margin-right: 10px;
+}
+
+.SearchPanel {
+  display: flex;
+  justify-content: flex-end;
+}
+.SearchPanel > div {
+  margin-left: 10px;
+}
+
+.SearchPanel > .form-control {
+  font-size: 0.9rem;
+}
+
+.newsTable {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+}
+
+.newsTable tr {
+  cursor: pointer;
+}
+
+.newsTable tr:hover {
+  background-color: rgb(237, 237, 237);
+}
+
+.newsTable th,
+.newsTable td {
+  padding: 0.5rem !important;
+}
+
+.newsTable td a {
+  color: rgb(20, 47, 145);
+  font-weight: 600;
+}
+
+.AllActions {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.Actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  height: 22px;
+  width: 22px;
+  padding: 5px;
+  font-size: 10px;
+  border-radius: 2px;
+  background: #ccc;
+  color: #fff;
+}
+
+a.Actions {
+  color: #fff !important;
+}
+
+.View {
+  background: rgb(2, 141, 95);
+}
+.Edit {
+  background: rgb(20, 47, 145);
+}
+
+.Publish {
+  padding: 5px 14px;
+  border-radius: 10px;
+  background: rgb(54, 175, 23);
+  color: #fff;
+}
+
+.Draft {
+  padding: 5px 14px;
+  border-radius: 10px;
+  background: rgb(54, 175, 23);
+  color: #fff;
+}
+
+.DashboardFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.Toast {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 100000;
+  min-width: 300px;
+  width: auto;
+  background-color: #fff;
+}
+
+.Notfound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.Notfound p {
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+.Notfound > img {
+  width: 200px;
+}
+
+.LitleError {
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  color: red;
+}
+
+.PasswordBtn {
+  border: none;
+  padding: 6px 20px !important;
+  border-radius: 20px;
+  background-color: rgb(6, 201, 110) !important;
+  color: #fff;
+  transition: 0.7s;
+  text-transform: uppercase;
+  font-size: 0.7rem !important;
+  font-weight: bold;
+}
+
+.PasswordBtn:hover {
+  background-color: rgb(15, 138, 80) !important;
+}
+
+.ResetInput {
+  margin-bottom: 2px;
+}
+
+.BtnGroup {
+  margin-top: 5px;
+  border-top: 1px solid rgb(219, 219, 219);
+  padding-top: 15px;
+}
+
+.BtnGroup > button {
+  margin-right: 10px;
+  padding: 3px 15px;
+}

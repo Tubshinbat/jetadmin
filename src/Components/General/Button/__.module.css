@@ -1,0 +1,16 @@
+.Mybtn {
+  border-radius: 0px;
+  font-size: 12px !important;
+  text-transform: uppercase;
+  font-weight: 600 !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px !important;
+  padding: 8px 25px !important;
+}
+
+.Mybtn i {
+  margin-right: 8px;
+  font-size: 10px !important;
+}

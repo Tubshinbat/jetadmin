@@ -1,0 +1,80 @@
+.PanelTabelHeader {
+  display: flex;
+  margin-bottom: 20px;
+}
+.PanelTabelHeader > button {
+  margin-right: 20px;
+  color: #fff;
+}
+.CatList ul,
+.CatList li {
+  list-style: none;
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.ListItem {
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.ListItem:hover {
+  color: rgb(116, 116, 116);
+}
+
+.Active {
+  color: rgb(100, 80, 212);
+  font-weight: bold;
+}
+
+.CatList li i {
+  margin-right: 10px;
+}
+
+.CatList li > ul {
+  padding-inline-start: 20px;
+  font-weight: 400;
+}
+
+.CatList label {
+  margin-bottom: 0.1rem;
+
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.Toast {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 100000;
+  min-width: 300px;
+  width: auto;
+  background-color: #fff;
+}
+
+.selectData h5 {
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.selectData span {
+  font-size: 0.8rem;
+  padding: 5px 15px;
+  border-radius: 20px;
+  background: rgb(44, 102, 189);
+  color: #fff;
+}
+
+.ControlBtn {
+  display: flex;
+  margin-top: 20px;
+}
+
+.ControlBtn > button {
+  margin-right: 10px;
+}

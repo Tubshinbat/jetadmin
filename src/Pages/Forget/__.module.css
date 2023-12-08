@@ -1,0 +1,50 @@
+.LoginLogo {
+    font-family: "Roboto" sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: -2px;
+  }
+  
+  .LoginMsg {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  
+  .LoginInput {
+    margin-bottom: 20px !important;
+  }
+  
+  .LoginInput > input {
+    font-size: 0.8rem;
+    padding: 20px 14px;
+  }
+  
+  .LoginBtn {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.7rem;
+  }
+  
+  .ForgetText {
+    font-size: 0.85rem;
+    margin-top: 5px;
+  }
+  
+  .ForgetText a {
+    text-decoration: none;
+    color: rgb(51, 26, 54);
+  }
+  
+  .Toast {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 100000;
+    min-width: 300px;
+    width: auto;
+    background-color: #fff;
+  }
+  

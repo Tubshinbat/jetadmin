@@ -1,0 +1,52 @@
+.PanelTabelHeader {
+  margin-bottom: 20px;
+}
+.PanelTabelHeader > button {
+  margin-right: 20px;
+}
+.CatList ul {
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.CatList ul,
+.CatList li {
+  list-style: none;
+  list-style-type: none;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.CatList li {
+  margin-bottom: 12px;
+}
+
+.ListItem {
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.ListItem:hover {
+  color: rgb(139, 9, 9);
+}
+
+.Active {
+  color: rgb(20, 120, 151);
+  font-weight: bold;
+}
+
+.CatList li i {
+  margin-right: 10px;
+}
+
+.CatList li > ul {
+  padding-inline-start: 10px;
+  font-weight: 400;
+}
+
+.CatList label {
+  margin-bottom: 0.1rem;
+  margin-bottom: 10px;
+  cursor: pointer;
+}

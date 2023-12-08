@@ -1,0 +1,109 @@
+.HeaderLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #efefef;
+}
+
+.Label {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+}
+
+.Label span {
+  font-size: 0.6rem;
+  font-weight: normal;
+  color: rgb(148, 148, 148);
+}
+
+.subTitle {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(90, 90, 90);
+  margin-bottom: 0px;
+}
+
+.btnRadius {
+  display: flex;
+  position: relative;
+  border-radius: 50px;
+  padding: 8px;
+  border: 0px;
+
+  background-color: rgba(0, 167, 106, 1);
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  transition: background-color 0.4s ease-out;
+}
+
+.btnRadius:hover {
+  background-color: rgb(29, 206, 141);
+  color: rgb(255, 255, 255);
+}
+
+.BtnGroup {
+  display: flex;
+}
+
+.BtnGroup button {
+  margin-right: 10px;
+}
+
+.Error {
+  margin-top: 10px;
+  font-size: 0.75rem;
+  color: red;
+}
+
+.SocialList {
+  display: flex;
+  flex-direction: column;
+}
+
+.SocialLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.SocialLink a {
+  text-decoration: none;
+  padding: 5px 15px;
+  color: #000;
+  border: 1px solid #efefef;
+  border-radius: 5px;
+  font-size: 0.84rem;
+  transition: all 0.3s;
+}
+
+.SocialLink a:hover {
+  background-color: #fafafa;
+}
+
+.ControlLink button {
+  font-size: 0.84rem;
+  padding: 5px;
+}
+
+.ControlLink button:nth-child(1) {
+  color: rgb(14, 136, 10);
+}
+.ControlLink button:nth-child(2) {
+  color: red;
+}
+
+.ControlLink button:hover {
+  color: #000;
+}
+
+.ModelBody {
+  padding: 10px 0px 20px 0px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #fafafa;
+}

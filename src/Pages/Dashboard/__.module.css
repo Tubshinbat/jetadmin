@@ -1,0 +1,49 @@
+.Lead {
+  padding: 20px;
+}
+
+.DetialItem {
+  margin-top: 10px;
+}
+
+.DetialItem > i {
+  font-size: 12px;
+}
+
+.Social {
+  margin-top: 10px;
+}
+
+.Social > a {
+  margin-left: 10px;
+  cursor: pointer;
+  color: rgb(87, 87, 87);
+}
+.Social > a:hover {
+  color: rgb(55, 11, 61);
+}
+
+.BtnEdit {
+  padding: 5px 12px;
+}
+
+.BtnEdit > i {
+  margin-right: 5px;
+  font-size: 0.8rem;
+}
+
+.Center {
+  display: flex;
+  justify-content: center;
+}
+
+.Logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}

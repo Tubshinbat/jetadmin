@@ -1,0 +1,77 @@
+.Images {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.Image {
+  display: flex;
+  flex: 1;
+  width: 100px;
+  background: #fff;
+  flex-direction: column;
+  padding: 0 10px 10px 0;
+}
+
+.Image:after {
+  content: "";
+  display: block;
+  float: right;
+  width: 30px;
+}
+
+.Status {
+  font-family: "roboto", sans-serif;
+  margin-left: 8px;
+  font-size: 12px;
+  padding: 7px;
+  color: #fff;
+  border-radius: 5px;
+  background: rgb(57, 89, 194);
+}
+.DetailsNews {
+  margin-bottom: 20px;
+}
+
+.DetailsNews > h5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.Categories {
+  font-family: "roboto", sans-serif;
+  display: flex;
+  font-size: 0.9rem;
+}
+
+.SubTitle {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.Categories > a {
+  color: rgb(53, 68, 151);
+  margin-right: 12px;
+  transition: all 0.2s;
+}
+
+.Categories > a:hover {
+  color: rgb(84, 53, 199);
+  text-decoration: underline;
+}
+
+.Categories > a::after {
+  content: ",";
+}
+
+.ControlBtns {
+  display: flex;
+  justify-content: flex-end;
+}
+.ControlBtns > button {
+  margin-right: 10px;
+}
+.ControlBtns > a {
+  border-radius: 0px;
+}

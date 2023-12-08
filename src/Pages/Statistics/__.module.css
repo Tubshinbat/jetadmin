@@ -1,0 +1,69 @@
+.TitleLittle {
+  font-size: 10px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.Title {
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 8px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.ListS {
+  display: flex;
+  list-style: none;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  align-items: center;
+}
+
+.ListS input {
+  margin-right: 10px;
+}
+
+.ListEl {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.LControl {
+  display: flex;
+  gap: 10px;
+}
+
+.LControl button {
+  border: 0px;
+  font-size: 10px;
+  padding: 6px;
+  transition: all 0.3s;
+}
+
+.EditBtn {
+  background-color: rgb(9, 175, 92);
+  color: #fff;
+}
+
+.EditBtn:hover {
+  background-color: rgb(4, 138, 71);
+  color: #fff;
+}
+
+.DeleteBtn {
+  background-color: rgb(185, 44, 44);
+  color: #fff;
+}
+
+.DeleteBtn:hover {
+  background-color: rgb(167, 41, 41);
+}
+
+.BtnGroup {
+  display: flex;
+  gap: 10px;
+}

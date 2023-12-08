@@ -1,0 +1,16 @@
+.RadioControl{
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.RadioControl input{
+    margin-right: 10px;
+}
+
+.RadioControl i {
+    margin-right: 5px;
+}

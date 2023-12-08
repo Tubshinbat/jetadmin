@@ -1,0 +1,61 @@
+.OptionModelForm {
+  display: flex;
+  padding: 5px;
+}
+
+.OptionModelForm > input {
+  margin-right: 15px;
+  height: 35px;
+  padding-left: 15px;
+  font-family: "Roboto", sans-serif;
+}
+.OptionItems {
+  max-height: 200px;
+  overflow-y: scroll;
+  padding: 5px;
+}
+
+.OptionItems > li {
+  padding: 0.5rem 1.2rem;
+  background-color: #fff;
+  border: 1px solid #eef2f7;
+}
+
+.Item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Item > i {
+  font-size: 0.7rem;
+  color: rgb(255, 9, 9);
+  cursor: pointer;
+}
+
+.ItemsOption {
+  display: flex;
+  margin-top: 10px;
+}
+
+.OptionTitle i {
+  font-size: 0.7rem;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.ItemOption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 25px;
+  height: 25px;
+  margin-right: 5px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 2px 5px;
+  border-radius: 3px;
+  color: #4318e1;
+  border: 1px solid #4318e1;
+  background-color: transparent;
+}
